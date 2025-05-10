@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>First template</title>
-</head>
-<body>
-    <h1>First template</h1>
+{% extends 'base.html' %}
+
+{% block title %}
+	First template
+{% endblock %}
+{% block body %}
+	<h1>First template</h1>
     <h2>without view</h2>
-</body>
-</html>
+{% endblock %}
